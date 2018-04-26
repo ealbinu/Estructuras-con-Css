@@ -1,0 +1,171 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+
+header .logo img{
+  max-width: 120px;
+}
+header{
+  border: 2px solid #000;
+  margin: 20px;
+}
+header nav a{
+  display: block;
+  background: #000;
+  text-align: center;
+  height: 18px;
+  padding: 5px;
+  margin: 10px;
+  color:#fff;
+  text-decoration: none;
+}
+
+/**** header-uno ****/
+.header-uno{
+  display: flex;
+  background: #eee;
+  padding: 20px;
+}
+.header-uno .logo{
+  margin: 0 20px;
+}
+
+.header-uno nav{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+
+}
+
+.header-uno nav a{
+  flex-grow: 1;
+}
+
+
+
+
+/**** header-dos ****/
+.header-dos{
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+}
+.header-dos .logo{
+  margin: 20px;
+}
+
+.header-dos nav{
+  display: flex;
+  justify-content: center;
+}
+
+
+/**** header-cuatro ****/
+.header-cuatro{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.header-cuatro nav{
+  margin-left: auto;
+}
+
+/**** header-cinco ****/
+.header-cinco{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.header-cinco .logo{
+  margin-left: auto;
+}
+
+/**** header-seis ****/
+.header-seis{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.header-seis nav{
+  display: flex;
+}
+
+.header-seis .logo{
+  margin-left: auto;
+}
+
+
+/**************************/
+
+section{
+  margin: 20px;
+  border: 2px solid #ffdd00;
+  padding: 20px;
+}
+
+
+/********* cuerpo-uno ******/
+
+.cuerpo-uno{
+  display: flex;
+}
+.cuerpo-uno .texto{
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+}
+.cuerpo-uno .imagen{
+  width: 50%;
+}
+
+.cuerpo-uno .imagen img{
+  width: 100%;
+}
+
+/********* cuerpo-dos ******/
+
+.cuerpo-dos{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.cuerpo-dos .imagen img{
+  width: 100%;
+}
+
+.cuerpo-dos .texto{
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+
+/********* cuerpo-tres ******/
+
+.cuerpo-tres{
+  padding: 20px;
+}
+
+.cuerpo-tres .imagenes{
+  display: flex;
+}
+
+.cuerpo-tres .imagen img{
+  width: 100%;
+}
+.cuerpo-tres .imagen{
+  margin: 10px;
+}
+
+.cuerpo-tres .texto{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+
+
